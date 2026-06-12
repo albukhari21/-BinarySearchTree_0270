@@ -20,3 +20,16 @@ public :
     }
 
 };
+
+
+// membuat class binary tree
+class BinaryTree {
+
+    // memberi akses modifier dan deklarasi object
+public :
+    Node* ROOT;
+
+    // membuat constructor dan memberi nilai kepada object ROOT
+    BinaryTree() {
+        ROOT = nullptr;
+    }
