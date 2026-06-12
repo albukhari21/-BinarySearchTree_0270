@@ -143,3 +143,15 @@ int main()
         char ch;
         cin >> ch;
         cout << endl;
+
+        //membuat conditional statement dari input ch
+        switch (ch)
+        {
+        case '1':
+        {
+            cout << "Enter a word: ";
+            string word;
+            cin >> word;
+            x.insert(word);
+            break;
+        }
